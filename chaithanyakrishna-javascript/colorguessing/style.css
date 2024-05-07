@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex; 
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+#white{
+    background-color: white;
+}
+#orange{
+    background-color: orange;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}

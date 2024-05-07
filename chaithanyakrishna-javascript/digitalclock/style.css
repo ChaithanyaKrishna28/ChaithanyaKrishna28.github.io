@@ -1,0 +1,27 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #414144;
+    flex-direction: column;
+    font-size: 2rem;
+}
+body h1{
+    color: aqua;
+}
+.container{
+    /* border: 2px solid; */
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.Time{
+    font-size: 2rem;
+    color: aqua;
+    font-weight: bold;
+}
