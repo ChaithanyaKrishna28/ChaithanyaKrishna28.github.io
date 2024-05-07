@@ -1,4 +1,4 @@
-# krsna28.github.io
+# ChaithanyaKrishna28.github.io
 
 Amazon webpage Clone Project is Live at https://ChaithanyaKrishna28.github.io/amazon/
 
