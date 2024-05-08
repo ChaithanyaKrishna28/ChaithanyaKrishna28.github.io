@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #414141;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            font-size: 1.3rem;
+        }
+        input[type=url]{
+            height: 30px;
+            background-color: peachpuff;
+            outline: none;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            background-color: greenyellow;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        p{
+            font-weight: bold;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        #profilePic{
+            width: 100px;
+            height: 100px;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1> API REQUEST LEARNING
+    </h1>
+    <form>
+        <label for="url">Enter the url of the api :</label>
+        <input name="url" type="url" id="url" placeholder="enter the url">
+        <button type="submit">Submit</button>
+    </form>
+    <div class="container">
+        <p >Name : <span id="name">-</span></p>
+        <p >Followers count : <span id="followers">0</span></p>
+        <p >Following Count : <span id="following">0</span></p>
+        <p >Public Repositories Count : <span id="repos">0</span></p>
+        <p >Created date : <span id="date"></span></p>
+        <img id="profilePic" src="" alt="Profile Picture">
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
