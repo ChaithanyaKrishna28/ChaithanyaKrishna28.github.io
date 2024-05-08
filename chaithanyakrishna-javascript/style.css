@@ -20,6 +20,10 @@ h1{
     text-shadow: 5px 5px 2px black;
 }
 
+li{
+    line-height: 25px;
+}
+
 .container{
     height: 100%;
     width: 100%;
@@ -46,6 +50,7 @@ h1{
     box-shadow: 5px 5px 2px black;
     transition: all ease-in-out;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .button:hover{
